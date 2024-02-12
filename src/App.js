@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import { whiteTheme, darkTheme } from './theme';
+import GlobalStyle from './GlobalStyle';
+import Layout from 'layouts/layout';
+import Main from 'pages/main';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const userType = whiteTheme;
+    const [theme, setTheme] = useState(userType);
+    return (
+        <ThemeProvider theme={theme}>
+            <GlobalStyle />
+            <BrowserRouter>
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                </Routes>
+            </Layout>
+            </BrowserRouter>
+        </ThemeProvider>
+    );
 }
 
 export default App;

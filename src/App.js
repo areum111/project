@@ -29,16 +29,16 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Main theme={theme} />} />
                     <Route path="/works" element={<Works theme={theme} />} />
-                    <Route path="/detail/thermos" element={<Thermos />} />
-                    <Route path="/detail/ohora" element={<Ohora />} />
-                    <Route path="/detail/varram" element={<Varram />} />
-                    <Route path="/detail/moye" element={<Moye />} />
-                    <Route path="/detail/ododoc" element={<Ododoc />} />
-                    <Route path="/detail/inspien" element={<Inspien />} />
-                    <Route path="/detail/mixsoon" element={<Mixsoon />} />
-                    <Route path="/detail/physiogel" element={<Physiogel />} />
-                    <Route path="/detail/purcell" element={<Purcell />} />
-                    <Route path="/detail/infigo" element={<Infigo />} />
+                    <Route path="/works/thermos" element={<Thermos />} />
+                    <Route path="/works/ohora" element={<Ohora />} />
+                    <Route path="/works/varram" element={<Varram />} />
+                    <Route path="/works/moye" element={<Moye />} />
+                    <Route path="/works/ododoc" element={<Ododoc />} />
+                    <Route path="/works/inspien" element={<Inspien />} />
+                    <Route path="/works/mixsoon" element={<Mixsoon />} />
+                    <Route path="/works/physiogel" element={<Physiogel />} />
+                    <Route path="/works/purcell" element={<Purcell />} />
+                    <Route path="/works/infigo" element={<Infigo />} />
                 </Routes>
             </Layout>
             </BrowserRouter>

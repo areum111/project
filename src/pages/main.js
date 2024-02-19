@@ -303,7 +303,7 @@ const Main = ({ theme }) => {
                                 </div>
                             </div>
                             <div className="right doughnut_wrap">
-                                <div className="doughnut" data-aos="fade-up" data-aos-delay="100">
+                                <div className="doughnut">
                                     <div>
                                         <Doughnut
                                             data={data1}
@@ -313,7 +313,7 @@ const Main = ({ theme }) => {
                                     </div>
                                     <p>HTML</p>
                                 </div>
-                                <div className="doughnut" data-aos="fade-up" data-aos-delay="200">
+                                <div className="doughnut">
                                     <div>
                                         <Doughnut
                                             data={data2}
@@ -323,7 +323,7 @@ const Main = ({ theme }) => {
                                     </div>
                                     <p>Javascript, jQuery</p>
                                 </div>
-                                <div className="doughnut" data-aos="fade-up" data-aos-delay="300">
+                                <div className="doughnut">
                                     <div>
                                         <Doughnut
                                             data={data3}
@@ -333,7 +333,7 @@ const Main = ({ theme }) => {
                                     </div>
                                     <p>React</p>
                                 </div>
-                                <div className="doughnut" data-aos="fade-up" data-aos-delay="400">
+                                <div className="doughnut">
                                     <div>
                                         <Doughnut
                                             data={data4}
@@ -343,7 +343,7 @@ const Main = ({ theme }) => {
                                     </div>
                                     <p>SCSS, CSS</p>
                                 </div>
-                                <div className="doughnut" data-aos="fade-up" data-aos-delay="500">
+                                <div className="doughnut">
                                     <div>
                                         <Doughnut
                                             data={data5}
@@ -353,7 +353,7 @@ const Main = ({ theme }) => {
                                     </div>
                                     <p>PHP</p>
                                 </div>
-                                <div className="doughnut" data-aos="fade-up" data-aos-delay="600">
+                                <div className="doughnut">
                                     <div>
                                         <Doughnut
                                             data={data6}

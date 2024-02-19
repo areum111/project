@@ -27,18 +27,18 @@ function App() {
             <BrowserRouter>
             <Layout setTheme={setTheme}>
                 <Routes>
-                    <Route path="/" element={<Main theme={theme} />} />
-                    <Route path="/works" element={<Works theme={theme} />} />
-                    <Route path="/detail/thermos" element={<Thermos />} />
-                    <Route path="/detail/ohora" element={<Ohora />} />
-                    <Route path="/detail/varram" element={<Varram />} />
-                    <Route path="/detail/moye" element={<Moye />} />
-                    <Route path="/detail/ododoc" element={<Ododoc />} />
-                    <Route path="/detail/inspien" element={<Inspien />} />
-                    <Route path="/detail/mixsoon" element={<Mixsoon />} />
-                    <Route path="/detail/physiogel" element={<Physiogel />} />
-                    <Route path="/detail/purcell" element={<Purcell />} />
-                    <Route path="/detail/infigo" element={<Infigo />} />
+                    <Route path="/portfolio/" element={<Main theme={theme} />} />
+                    <Route path="/portfolio/works" element={<Works theme={theme} />} />
+                    <Route path="/portfolio/detail/thermos" element={<Thermos />} />
+                    <Route path="/portfolio/detail/ohora" element={<Ohora />} />
+                    <Route path="/portfolio/detail/varram" element={<Varram />} />
+                    <Route path="/portfolio/detail/moye" element={<Moye />} />
+                    <Route path="/portfolio/detail/ododoc" element={<Ododoc />} />
+                    <Route path="/portfolio/detail/inspien" element={<Inspien />} />
+                    <Route path="/portfolio/detail/mixsoon" element={<Mixsoon />} />
+                    <Route path="/portfolio/detail/physiogel" element={<Physiogel />} />
+                    <Route path="/portfolio/detail/purcell" element={<Purcell />} />
+                    <Route path="/portfolio/detail/infigo" element={<Infigo />} />
                 </Routes>
             </Layout>
             </BrowserRouter>

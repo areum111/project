@@ -471,6 +471,7 @@ export const Skill = styled.div`
     @media screen and (max-width:767px) {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 8rem 0 2rem;
         .inner {
             flex-direction: column;

@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const SwitchToggleContainer = styled.div`
     position: relative;
     display: inline-flex;
-    margin-top: 0.2rem;
     .react-switch-checkbox {
         position: absolute;
         height: 0;
@@ -17,9 +16,9 @@ const SwitchToggleContainer = styled.div`
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
-        width: 2.8rem;
-        height: 1.6rem;
-        background: ${(props) => props.theme.gray2};
+        width: 2.4rem;
+        height: 1.4rem;
+        border: 1px solid ${(props) => props.theme.white1};
         border-radius: 2.8rem;
         position: relative;
         transition: background-color .2s;
@@ -32,22 +31,22 @@ const SwitchToggleContainer = styled.div`
     .react-switch-label .react-switch-button {
         content: '';
         position: absolute;
-        top: 0.2rem;
-        left: 0.2rem;
-        width: 1.2rem;
-        height: 1.2rem;
+        top: 0.1rem;
+        left: 0.1rem;
+        width: 1rem;
+        height: 1rem;
         border-radius: 50%;
         transition: 0.2s;
         background: ${(props) => props.theme.white1};
     }
     
     .react-switch-checkbox:checked + .react-switch-label .react-switch-button {
-        left: calc(100% - 0.2rem);
+        left: calc(100% - 0.1rem);
         transform: translateX(-100%);
     }
     
     .react-switch-label:active .react-switch-button {
-        width: 1.2rem;
+        width: 1rem;
     }
 `
 

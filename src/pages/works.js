@@ -61,7 +61,7 @@ const Works = () => {
             </div>
             <ul className="inner">
                 <li>
-                    <Link to="/detail/thermos">
+                    <Link to="/works/thermos">
                         <p className="img_wrap"><img src={thermosImg} alt="써모스" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -77,7 +77,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/varram">
+                    <Link to="/works/varram">
                         <p className="img_wrap"><img src={varramImg} alt="바램펫" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -91,7 +91,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/ohora">
+                    <Link to="/works/ohora">
                         <p className="img_wrap"><img src={ohoraImg} alt="오호라" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -105,7 +105,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/moye">
+                    <Link to="/works/moye">
                         <p className="img_wrap"><img src={moyeImg} alt="모두의 예체능" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -119,7 +119,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/ododoc">
+                    <Link to="/works/ododoc">
                         <p className="img_wrap"><img src={ododocImg} alt="오도독" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -132,7 +132,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/inspien">
+                    <Link to="/works/inspien">
                         <p className="img_wrap"><img src={inspienImg} alt="인스피언" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -146,7 +146,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/infigo">
+                    <Link to="/works/infigo">
                         <p className="img_wrap"><img src={infigoImg} alt="인피고" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -160,7 +160,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/physiogel">
+                    <Link to="/works/physiogel">
                         <p className="img_wrap"><img src={physiogelImg} alt="피지오겔" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -174,7 +174,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/purcell">
+                    <Link to="/works/purcell">
                         <p className="img_wrap"><img src={purcellImg} alt="퍼셀" /></p>
                     </Link>
                     <div className="text_wrap">
@@ -188,7 +188,7 @@ const Works = () => {
                     </div>
                 </li>
                 <li>
-                    <Link to="/detail/mixsoon">
+                    <Link to="/works/mixsoon">
                         <p className="img_wrap"><img src={mixsoonImg} alt="믹순" /></p>
                     </Link>
                     <div className="text_wrap">

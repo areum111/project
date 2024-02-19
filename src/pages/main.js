@@ -178,7 +178,7 @@ const Main = ({ theme }) => {
             id: 1,
             image: thermosImg,
             brand: "Thermos",
-            url: "/detail/thermos",
+            url: "/works/thermos",
             tag: [
                 {
                     id: 1,
@@ -382,7 +382,7 @@ const Main = ({ theme }) => {
                                 className="work_swiper"
                             >
                                 <SwiperSlide>
-                                    <Link to="/detail/thermos">
+                                    <Link to="/works/thermos">
                                         <img src={thermosImg} alt="써모스" />
                                         <div className="text_wrap">
                                             <p className="brand">THERMOS</p>
@@ -398,7 +398,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/varram">
+                                    <Link to="/works/varram">
                                         <img src={varramImg} alt="바램펫" />
                                         <div className="text_wrap">
                                             <p className="brand">VARRAM</p>
@@ -412,7 +412,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/ohora">
+                                    <Link to="/works/ohora">
                                         <img src={ohoraImg} alt="오호라" />
                                         <div className="text_wrap">
                                             <p className="brand">ohora</p>
@@ -426,7 +426,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/moye">
+                                    <Link to="/works/moye">
                                         <img src={moyeImg} alt="모두의 예체능" />
                                         <div className="text_wrap">
                                             <p className="brand">모두의 예체능</p>
@@ -440,7 +440,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/ododoc">
+                                    <Link to="/works/ododoc">
                                         <img src={ododocImg} alt="오도독" />
                                         <div className="text_wrap">
                                             <p className="brand">OdoDOC</p>
@@ -453,7 +453,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/inspien">
+                                    <Link to="/works/inspien">
                                         <img src={inspienImg} alt="인스피언" />
                                         <div className="text_wrap">
                                             <p className="brand">인스피언</p>
@@ -467,7 +467,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/infigo">
+                                    <Link to="/works/infigo">
                                         <img src={infigoImg} alt="인피고" />
                                         <div className="text_wrap">
                                             <p className="brand">infigo</p>
@@ -481,7 +481,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/physiogel">
+                                    <Link to="/works/physiogel">
                                         <img src={physiogelImg} alt="피지오겔" />
                                         <div className="text_wrap">
                                             <p className="brand">피지오겔</p>
@@ -495,7 +495,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/purcell">
+                                    <Link to="/works/purcell">
                                         <img src={purcellImg} alt="퍼셀" />
                                         <div className="text_wrap">
                                             <p className="brand">퍼셀</p>
@@ -509,7 +509,7 @@ const Main = ({ theme }) => {
                                     </Link>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Link to="/detail/mixsoon">
+                                    <Link to="/works/mixsoon">
                                         <img src={mixsoonImg} alt="믹순" />
                                         <div className="text_wrap">
                                             <p className="brand">MIXSOON</p>
